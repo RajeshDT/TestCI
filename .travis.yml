@@ -1,2 +1,8 @@
 language: csharp
 solution: TestTravisCI.sln
+notifications:
+  email:
+    recipients:
+      - rajesh.tailor@datatusk.com
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always
